@@ -1,0 +1,37 @@
+@import'./normalize.css';
+@import'./general.css';
+
+// header//
+.header{
+    padding: 10px 0;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+
+    .wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .menu{
+        display: flex;
+        gap: 30px;
+    }
+
+    .menu-link {
+        transition: 0.3s;
+    }
+
+    .menu-link:hover {
+        color: #0066FF;
+    }
+
+    .actions {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .action-btn {
+        font-size: 16px;
+    }
+}

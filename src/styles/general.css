@@ -1,0 +1,19 @@
+.btn {
+    background-color: #0066FF;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    padding: 15px 16px;
+    border-radius: 3px;
+}
+
+h2.title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56.25px;
+}
+
+h2 .title span.mark{
+    background-color: #F9ED32;
+    
+}
