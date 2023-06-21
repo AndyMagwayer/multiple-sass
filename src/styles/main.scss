@@ -35,3 +35,89 @@
         font-size: 16px;
     }
 }
+
+// hero//
+
+.hero{
+    background: linear-gradient(180deg, rgba(214, 218, 228, 0) 0%, rgba(214, 218, 228, 0.2) 100%);
+    padding: 50px 0;
+
+    .wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .hero-content {
+        width: 720px;
+    
+    }
+    .hero-title {
+        font-size: 56px;
+        font-weight: 900;
+    
+        span {
+            background-color: #f9ed32;
+            padding: 10px;
+        }
+    }
+    .hero-content .text {
+        font-size: 18px;
+        width: 580px;
+        margin: 27px 0 50px;
+    }
+    .form{
+        display: flex;
+        align-items: stretch;
+
+        .input{
+            border: 3px solid #0066FF;
+            border-radius: 5px 0px 0px 5px;
+            padding: 0 10px;
+            width: 250px;
+            font-size: 18px;
+        }
+        .btn{
+            border-radius: 0px 5px 5px 0px;
+        }
+    }   
+    .hero-content .list{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-top: 20px;
+
+        .dot{
+            width: 5px;
+            height: 5px;
+            border-radius: 50%;
+            background-color: #000;
+        }
+    }
+    .hero-content .list p{
+        font-size: 14px;
+    }
+    .form .input::placeholder{
+        font-size: 15px;
+        color: #9CA0AC;
+    }
+    .brands-title{
+        font-size: 18px;
+        font-weight: 500;
+        color: #9CA0AC;
+        text-transform: uppercase;
+        margin:75px 0 20px;
+        text-align: center;
+    }
+
+    .brands{
+        display: flex;
+        align-items: center;
+        gap: 46px;
+        justify-content: center;
+    }
+         
+}
+
+@media (body(max-width)){
+
+};
